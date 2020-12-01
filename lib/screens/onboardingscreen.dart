@@ -131,7 +131,7 @@ class _onboardingscreenState extends State<onboardingscreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image(image: AssetImage('images/screen3.png'),width: 350.0,height: 200.0,
+                            Image(image: AssetImage('images/newscreen2.png'),width: 350.0,height: 200.0,
                             ),
                             SizedBox(height: 0.0,),
                             Text("Let’s Start The Journey",style:TextStyle(color: Colors.black,fontSize: 34.0,fontWeight: FontWeight.bold)),   

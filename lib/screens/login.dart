@@ -1,3 +1,4 @@
+import 'package:app/screens/Dashboard.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -167,6 +168,9 @@ class _loginpageState extends State<loginpage> {
                 ),
                 child: FlatButton(
                   onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context){
+                      return dashboard();
+                    }));
                   },
                   child: Padding(
                     padding: const EdgeInsets.all(10.0),
